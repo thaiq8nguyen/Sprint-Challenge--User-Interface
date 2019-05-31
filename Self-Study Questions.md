@@ -6,20 +6,20 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-*Semantic HTML provides understandable meaning to HTML tags and their content between the tags. It helps describe the content of a web page to SEO engines*
+*Semantic HTML provides understandable meaning to HTML tags and their content in the tags. It helps describe the content of a web page to SEO engines.*
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-*`display:block` allows an element to take an entire row by it.  `display:inline` allows two or more elements to be next to another on a row.*
+*`display:block` allows an element to take an entire row by itself.  `display:inline` allows two or more elements to be placed next to another on a row.*
 
 3. What are the 4 areas of the box model?
 
-*content, padding, border, and margin*
+*content, padding, border, and margin.*
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-*`align-items: center` aligns flex-items inside a flex-contain to laid out along it cross-axis or up-down line*
+*`align-items: center` aligns flex-items inside a flex-contain to laid out along it cross-axis or up-down line.*
 
 5. Explain why git is valuable to a team of developers.
 
-*Git supports codebase version tracking and promote code collaboration in a team*
+*Git supports codebase version tracking and promotes code collaborations in a team.*
