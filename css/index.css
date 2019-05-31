@@ -70,6 +70,37 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    margin-top: 20px;
+    width: 100%;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.nav-item {
+    /* margin: 20px 30px; */
+}
+.nav-item a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 1px solid transparent;
+}
+.nav-item a:hover {
+    color: crimson;
+    border-bottom: 1px solid crimson;
+}
+.header-img {
+    margin: 20px 0;
+}
 
 .top-content {
     display: flex;
@@ -104,12 +135,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-1 {
+    background-color: teal
+}
+.box-2 {
+    background-color: gold;
+}
+.box-3 {
+    background-color: cadetblue;
+}
+.box-4 {
+    background-color: coral;
+}
+.box-5 {
+    background-color: crimson;
+}
+.box-6 {
+    background-color: forestgreen;
+}
+.box-7 {
+    background-color: darkorchid;
+}
+.box-8 {
+    background-color: hotpink;
+}
+.box-9 {
+    background-color: indigo;
+}
+.box-10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -129,6 +190,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-bottom: 20px;
 }
 
 footer nav {
@@ -144,3 +206,93 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* BEGIN ABOUT PAGE STYLES */
+.about {
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.work-strategies {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.work {
+    width: 46.5%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px; 
+}
+
+.work h2 {
+    margin-top: 10px;
+}
+
+.work .learn-more-btn, .send-btn {
+    display: block;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 3px solid black;
+    font-size: 16px;
+    margin: 20px 0;
+    width: 140px;
+    text-decoration: none;
+    color: black;
+}
+
+.work-together {
+    padding: 0 30px;
+}
+/* END ABOUT PAGE STYLES */
+
+/* BEGIN CONTACT PAGE STYLES */
+main {
+    margin-bottom: 20px;
+}
+.contact-us h1 {
+    font-size: 60px;
+}
+.form-container {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+}
+.form-item {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    
+}
+.form-item label {
+    padding: 10px 20px 10px 0;
+    text-transform: uppercase;
+    flex: 1
+}
+.form-item input, textarea {
+    flex: 4;
+}
+.form-item textarea {
+    resize: none;
+}
+.send-btn {
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+/* END CONTACT PAGE STYLES */
+
+/* BEGIN PRODUCT PAGE STYLES */
+.our-products h1 {
+    font-size: 60px;
+}
+/* END PRODUCT PAGE STYLES */
+
+/* BEGIN BLOG PAGE STYLES */
+.our-blog h1 {
+    font-size: 60px;
+}
+/* END BLOG PAGE STYLES */
